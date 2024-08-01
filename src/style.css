@@ -48,6 +48,16 @@ nav
     background:rgb(9, 6, 6,0.65);
     padding: 1rem;
 }
+.about-us-text
+{
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 50vw;
+    background:rgb(9, 6, 6,0.65);
+    text-align: justify;
+}
 #content
 {
     display: flex;
