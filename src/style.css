@@ -30,7 +30,7 @@ html
 {
     -ms-overflow-style: none;  /* IE and Edge */
     -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    scrollbar-width: none;
 }
 
 body
@@ -61,7 +61,7 @@ nav
     margin:30vh 0;
 }
 
-.about-us-text
+.about-us-text,.contact-us
 {
     color: white;
     font-size: 1.5rem;
@@ -71,11 +71,20 @@ nav
     text-align: justify;
     margin:20vh 0;
 }
-.about-us-item
+.about-us-item,.email,.number,.address
 {
     grid-column: 2/3;
     background:rgb(9, 6, 6,0.7);
     padding: 1rem;
+}
+.email,.number,.address
+{
+    text-align: center;
+    font-size: 2rem;
+}
+.email:hover,.number:hover,.address:hover,.about-us-item:hover
+{
+    transform: scale(1.2);
 }
 .menu-container
 {
@@ -105,6 +114,12 @@ img
     gap: 1rem;
 
 }
+
+.menu-items:hover
+{
+    transform: scale(1.2);
+}
+
 button
 {
     margin: 0;
