@@ -86,6 +86,7 @@ nav
     justify-items: center;
     background:rgb(9, 6, 6,0.7);    
     gap: 5rem;
+    margin-top: 3rem;
 }
 img
 {
