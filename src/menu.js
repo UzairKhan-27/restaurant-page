@@ -1,8 +1,8 @@
 function menuPage(){
 
 const menuItems = [
-    { name: "Messi Burger", price: "$2.50", image: "./src/burger.jpg" },
-    { name: "Chicken Sandwich", price: "$3.00", image: "../src/chickensand.jpg" },
+    { name: "Beef Burger", price: "$2.50", image: "./src/burger.jpg" },
+    { name: "Chicken Sandwich", price: "$3.00", image: "./chickensand.jpg" },
     { name: "Veggie Pizza", price: "$4.00", image: "../src/veggie_pizza.jpg" },
 ];
 const content = document.querySelector("#content");
