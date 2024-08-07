@@ -1,7 +1,7 @@
 function menuPage(){
 
 const menuItems = [
-    { name: "Beef Burger", price: "$2.50", image: "../src/burger.jpg" },
+    { name: "Beef Burger", price: "$2.50", image: "./burger.jpg" },
     { name: "Chicken Sandwich", price: "$3.00", image: "../src/chickensand.jpg" },
     { name: "Veggie Pizza", price: "$4.00", image: "../src/veggie_pizza.jpg" },
 ];
